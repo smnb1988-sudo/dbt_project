@@ -1,0 +1,12 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: namespace-start-01.837553126959.ap-southeast-2.redshift-serverless.amazonaws.com
+      user: admin
+      password: Admin12345
+      port: 5439
+      dbname: dev
+      schema: public
+      threads: 4
